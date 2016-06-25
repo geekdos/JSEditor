@@ -1,0 +1,30 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+
+.code-area {
+	display: block;
+	width: 100%;
+	min-height: 150px;
+	overflow: auto;
+}
+.btn{
+	border-radius: 0; 
+	border: none;
+	padding: 2px;
+	background-color: #cecece;
+	color: #000; 
+}
+.btn:hover{
+	cursor: pointer;
+}
+
+.btn-success{
+	background-color: green;
+	color: #fff;
+}
+.btn-danger{
+	background-color: red;
+	color: #fff;
+}
